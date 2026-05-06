@@ -1,0 +1,32 @@
+public class TicTacToe {
+
+    static boolean isHumanTurn;
+    static char humanSymbol;
+    static char computerSymbol;
+
+    /**
+     * Entry point of the program. Executes the toss logic and displays
+     * the result of turn and symbol assignment.
+     */
+    public static void main(String[] args) {
+
+        tossAndAssignSymbols();
+        displayTossResult();
+    }
+
+    /**
+     * Uses random logic to decide the first player and assigns symbols
+     * based on the toss outcome. This method initializes the game state.
+     */
+    static void tossAndAssignSymbols() {
+
+    }
+
+    /**
+     * Displays the toss result, indicating who plays first and which
+     * symbol is assigned to each player.
+     */
+    static void displayTossResult() {
+
+    }
+}
